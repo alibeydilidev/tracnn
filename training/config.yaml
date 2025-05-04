@@ -1,0 +1,19 @@
+# Model parameters
+input_channels: 3
+trans_dim: 64
+fused_dim: 128
+num_classes: 5
+
+# Training parameters
+batch_size: 32
+learning_rate: 0.001
+epochs: 30
+weight_decay: 0.0001
+
+# Dataset
+train_samples: 1000
+val_samples: 200
+
+# Paths
+model_save_path: outputs/tracnn_model.pt
+log_dir: logs/

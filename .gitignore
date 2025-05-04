@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+
+# macOS
+.DS_Store
+
+# PyTorch checkpoints
+*.pt
+*.pth
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+
+# Logs / Cache
+*.log
+*.npy
+outputs/*.npy
+outputs/cache/
